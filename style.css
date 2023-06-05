@@ -4,3 +4,13 @@
 .VERMELHO{
      background-color: blueviolet;
 }
+.gato-preto:hover { 
+     transform: scale(1.10);
+     transition: 0.6s;
+}
+@media screen and ( max-width:480px) {
+     
+     .VERMELHO{
+          text-align: center;
+     }
+}
